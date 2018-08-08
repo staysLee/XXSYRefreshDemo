@@ -15,7 +15,6 @@
 		E241CCF92114049600DD61D4 /* XXSYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCF82114049600DD61D4 /* XXSYTabBar.m */; };
 		E241CCFC21142B7B00DD61D4 /* XXSYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCFB21142B7B00DD61D4 /* XXSYTabBarController.m */; };
 		E241CD0021144B9E00DD61D4 /* XCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCFF21144B9E00DD61D4 /* XCTestModel.m */; };
-		E24566C2211A918E000669E6 /* sdsdsd.m in Sources */ = {isa = PBXBuildFile; fileRef = E24566C1211A918E000669E6 /* sdsdsd.m */; };
 		E2490C462110370900C3B124 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2490C452110370900C3B124 /* GCDTest.m */; };
 		E2490C492110589200C3B124 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2490C482110589200C3B124 /* SocketManager.m */; };
 		E250CD592109A19B004A2B6E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E250CD342109A19A004A2B6E /* LICENSE */; };
@@ -107,8 +106,6 @@
 		E241CCFB21142B7B00DD61D4 /* XXSYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXSYTabBarController.m; sourceTree = "<group>"; };
 		E241CCFE21144B9E00DD61D4 /* XCTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestModel.h; sourceTree = "<group>"; };
 		E241CCFF21144B9E00DD61D4 /* XCTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestModel.m; sourceTree = "<group>"; };
-		E24566C0211A918E000669E6 /* sdsdsd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdsdsd.h; sourceTree = "<group>"; };
-		E24566C1211A918E000669E6 /* sdsdsd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdsdsd.m; sourceTree = "<group>"; };
 		E2490C442110370900C3B124 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
 		E2490C452110370900C3B124 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
 		E2490C472110589200C3B124 /* SocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
@@ -504,8 +501,6 @@
 				E26FB0A92118363B005FA3F0 /* XXSYCoreTextView.m */,
 				E24108B8211943EF00F0F264 /* ImageCoreTextView.h */,
 				E24108B9211943EF00F0F264 /* ImageCoreTextView.m */,
-				E24566C0211A918E000669E6 /* sdsdsd.h */,
-				E24566C1211A918E000669E6 /* sdsdsd.m */,
 			);
 			path = XXSYCoreText;
 			sourceTree = "<group>";
@@ -666,7 +661,6 @@
 				E250CD5D2109A19B004A2B6E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				E250CD5E2109A19B004A2B6E /* UIImageView+AFNetworking.m in Sources */,
 				E2490C492110589200C3B124 /* SocketManager.m in Sources */,
-				E24566C2211A918E000669E6 /* sdsdsd.m in Sources */,
 				E26FB0AA2118363B005FA3F0 /* XXSYCoreTextView.m in Sources */,
 				E250CD762109A1AC004A2B6E /* YYMemoryCache.m in Sources */,
 				E2771C4F2105AF01007947FA /* XXSYRefreshHeader.m in Sources */,
