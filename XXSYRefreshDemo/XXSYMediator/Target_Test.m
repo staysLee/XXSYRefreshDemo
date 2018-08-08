@@ -9,6 +9,7 @@
 #import "Target_Test.h"
 #import "TestViewController.h"
 #import "XXSYCoreTextViewController.h"
+#import "ReadViewController.h"
 
 #define Return_ActionDefine(vcName) \
 - (UIViewController *)Action_##vcName:(NSDictionary *)params{ \
@@ -24,6 +25,7 @@ typedef void (^CallbackBlock)(NSDictionary *infoDic);
 Return_ActionDefine(TestViewController);
 
 Return_ActionDefine(XXSYCoreTextViewController);
+Return_ActionDefine(ReadViewController);
 
 - (id)Action_ShowAlert:(NSDictionary *)params
 {

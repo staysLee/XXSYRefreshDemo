@@ -18,5 +18,6 @@
 @interface Target_Test : NSObject
 - (UIViewController *)Action_TestViewController:(NSDictionary *)params;
 - (UIViewController *)Action_XXSYCoreTextViewController:(NSDictionary *)params;
+- (UIViewController *)Action_ReadViewController:(NSDictionary *)params;
 - (id)Action_ShowAlert:(NSDictionary *)params;
 @end

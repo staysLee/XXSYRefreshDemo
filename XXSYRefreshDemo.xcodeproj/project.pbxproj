@@ -15,6 +15,8 @@
 		E241CCF92114049600DD61D4 /* XXSYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCF82114049600DD61D4 /* XXSYTabBar.m */; };
 		E241CCFC21142B7B00DD61D4 /* XXSYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCFB21142B7B00DD61D4 /* XXSYTabBarController.m */; };
 		E241CD0021144B9E00DD61D4 /* XCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CCFF21144B9E00DD61D4 /* XCTestModel.m */; };
+		E24566C6211A9EBD000669E6 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24566C5211A9EBD000669E6 /* ReadViewController.m */; };
+		E24566C9211AB9F6000669E6 /* ReadContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24566C8211AB9F6000669E6 /* ReadContentViewController.m */; };
 		E2490C462110370900C3B124 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2490C452110370900C3B124 /* GCDTest.m */; };
 		E2490C492110589200C3B124 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2490C482110589200C3B124 /* SocketManager.m */; };
 		E250CD592109A19B004A2B6E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E250CD342109A19A004A2B6E /* LICENSE */; };
@@ -106,6 +108,10 @@
 		E241CCFB21142B7B00DD61D4 /* XXSYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXSYTabBarController.m; sourceTree = "<group>"; };
 		E241CCFE21144B9E00DD61D4 /* XCTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestModel.h; sourceTree = "<group>"; };
 		E241CCFF21144B9E00DD61D4 /* XCTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestModel.m; sourceTree = "<group>"; };
+		E24566C4211A9EBD000669E6 /* ReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		E24566C5211A9EBD000669E6 /* ReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		E24566C7211AB9F6000669E6 /* ReadContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadContentViewController.h; sourceTree = "<group>"; };
+		E24566C8211AB9F6000669E6 /* ReadContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadContentViewController.m; sourceTree = "<group>"; };
 		E2490C442110370900C3B124 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
 		E2490C452110370900C3B124 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
 		E2490C472110589200C3B124 /* SocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
@@ -267,6 +273,17 @@
 			path = XCTest;
 			sourceTree = "<group>";
 		};
+		E24566C3211A9DE1000669E6 /* UIPageVC_Read */ = {
+			isa = PBXGroup;
+			children = (
+				E24566C4211A9EBD000669E6 /* ReadViewController.h */,
+				E24566C5211A9EBD000669E6 /* ReadViewController.m */,
+				E24566C7211AB9F6000669E6 /* ReadContentViewController.h */,
+				E24566C8211AB9F6000669E6 /* ReadContentViewController.m */,
+			);
+			path = UIPageVC_Read;
+			sourceTree = "<group>";
+		};
 		E2490C43211036D900C3B124 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +426,7 @@
 		E26D4CAE20EA2390002F1FDE /* XXSYRefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E24566C3211A9DE1000669E6 /* UIPageVC_Read */,
 				E26FB0A1211831E6005FA3F0 /* XXSYCoreText */,
 				E241CCFD21144B1A00DD61D4 /* XCTest */,
 				E241CCF62114041800DD61D4 /* XXSYTabBar */,
@@ -671,8 +689,10 @@
 				E250CD692109A19B004A2B6E /* AFSecurityPolicy.m in Sources */,
 				E2527E962106C42D0008D6F5 /* XXSYRefreshStateHeader.m in Sources */,
 				E250CD732109A1AC004A2B6E /* YYDiskCache.m in Sources */,
+				E24566C9211AB9F6000669E6 /* ReadContentViewController.m in Sources */,
 				E255071A2112F90900A86F2E /* CellTarget_TestCell.m in Sources */,
 				E250CD7D2109A389004A2B6E /* XXSYNetWorkManager.m in Sources */,
+				E24566C6211A9EBD000669E6 /* ReadViewController.m in Sources */,
 				E26FB0A72118360A005FA3F0 /* XXSYCoreTextViewController.m in Sources */,
 				E25507072112D51800A86F2E /* XXSYMediator.m in Sources */,
 				E255070A2112E93E00A86F2E /* XXSYMediator+Test.m in Sources */,

@@ -12,6 +12,7 @@ NSString *const kXXSYMediatorTarget_Test = @"Test";
 //action
 NSString *const kXXSYMediatorAction_TestViewController = @"TestViewController";
 NSString *const kXXSYMediatorAction_CoreTextViewController = @"XXSYCoreTextViewController";
+NSString *const kXXSYMediatorAction_ReadViewController = @"ReadViewController";
 NSString *const kXXSYMediatorAction_ShowAlert = @"ShowAlert";
 
 #define Return_PerformTarget(a,b,c) \
@@ -33,6 +34,12 @@ return [[UIViewController alloc] init];\
 {
     NSDictionary *params = @{@"title":@"这是传递的参数title"};
     Return_PerformTarget(kXXSYMediatorTarget_Test, kXXSYMediatorAction_CoreTextViewController, params);
+}
+
+- (UIViewController *)XXSYMediator_ReadViewController
+{
+    NSDictionary *params = @{@"title":@"这里是传递的参数title"};
+    Return_PerformTarget(kXXSYMediatorTarget_Test, kXXSYMediatorAction_ReadViewController, params);
 }
 
 - (void)XXSYMediator_ShowAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction

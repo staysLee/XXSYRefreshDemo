@@ -11,5 +11,6 @@
 @interface XXSYMediator (Test)
 - (UIViewController *)XXSYMediator_TestViewController;
 - (UIViewController *)XXSYMediator_CoreTextViewController;
+- (UIViewController *)XXSYMediator_ReadViewController;
 - (void)XXSYMediator_ShowAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 @end
